@@ -9,5 +9,6 @@ public class HelloWorld {
     public static void main(String[] args) {
         BasicConfigurator.configure();
         logger.info("Hello World");          // the old SysO-statement
+        System.out.println("Hello World from SOUT!");
     }
 }
